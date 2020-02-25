@@ -34,20 +34,22 @@
          // 
          // comboBox1
          // 
+         this.comboBox1.Dock = System.Windows.Forms.DockStyle.Top;
          this.comboBox1.FormattingEnabled = true;
-         this.comboBox1.Location = new System.Drawing.Point(12, 3);
+         this.comboBox1.Location = new System.Drawing.Point(0, 0);
          this.comboBox1.Name = "comboBox1";
-         this.comboBox1.Size = new System.Drawing.Size(400, 21);
+         this.comboBox1.Size = new System.Drawing.Size(414, 21);
          this.comboBox1.TabIndex = 0;
          // 
          // textBox1
          // 
-         this.textBox1.Location = new System.Drawing.Point(12, 30);
+         this.textBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+         this.textBox1.Location = new System.Drawing.Point(0, 21);
          this.textBox1.Multiline = true;
          this.textBox1.Name = "textBox1";
          this.textBox1.ReadOnly = true;
          this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-         this.textBox1.Size = new System.Drawing.Size(400, 423);
+         this.textBox1.Size = new System.Drawing.Size(414, 444);
          this.textBox1.TabIndex = 1;
          // 
          // Form1
